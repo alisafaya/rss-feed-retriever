@@ -2,6 +2,37 @@
 	"scmp": {
 		"url": "https://www.scmp.com/rss/2/feed",
 		"output_path": "/scratch/RSSFeed/scmp",
-		"format": "scmp_rss_TIMESTAMP.xml"
+		"format": "scmp_rss_TIMESTAMP.xml",
+		"proxy": {
+			"http": "95.68.115.20:5328",
+			"https": "95.68.115.202:53281"
+		}
+	},
+	"the_hindu": {
+		"url": "https://www.thehindu.com/feeder/default.rss",
+		"output_path": "/scratch/RSSFeed/the_hindu",
+		"format": "the_hindu_rss_TIMESTAMP.xml"
+	},
+	"new_india_express_nation": {
+		"url": "https://www.newindianexpress.com/Nation/rssfeed/?id=170&getXmlFeed=true",
+		"output_path": "/scratch/RSSFeed/new_india_express",
+		"format": "new_india_express_rss_TIMESTAMP.xml"
+	},
+	"new_india_express_world": {
+		"url": "https://www.newindianexpress.com/World/rssfeed/?id=171&getXmlFeed=true",
+		"output_path": "/scratch/RSSFeed/new_india_express",
+		"format": "new_india_express_world_rss_TIMESTAMP.xml"
+	},
+	"times_of_india": {
+		"url": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
+		"output_path": "/scratch/RSSFeed/timesofindia",
+		"format": "timesofindia_rss_TIMESTAMP.xml"
+	},
+	"indian_express": {
+		"url": "https://indianexpress.com/section/india/feed/",
+		"output_path": "/scratch/RSSFeed/indian_express",
+		"format": "indian_express_rss_TIMESTAMP.xml"
 	}
+
+	
 }
