@@ -2,11 +2,7 @@
 	"scmp": {
 		"url": "https://www.scmp.com/rss/2/feed",
 		"output_path": "/scratch/RSSFeed/scmp",
-		"format": "scmp_rss_TIMESTAMP.xml",
-		"proxy": {
-			"http": "95.68.115.20:5328",
-			"https": "95.68.115.202:53281"
-		}
+		"format": "scmp_rss_TIMESTAMP.xml"
 	},
 	"the_hindu": {
 		"url": "https://www.thehindu.com/feeder/default.rss",
