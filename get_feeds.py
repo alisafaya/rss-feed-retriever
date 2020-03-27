@@ -43,6 +43,6 @@ for k, v in feeds.items():
 		body="Could not retrieve rss feed for \"" + k + "\", at" + datetime.strftime(datetime.now(), " %Y/%m/%d_%H:%M:%S ") + str(e)
 		with open("rss_feed_error.log", "a") as fo: 
 			fo.write(body+ "\n" )
-		send_mail.send_email("aalabrash18@ku.edu.tr","RSS",body+"\n"+traceback.format_exc())
+		send_mail.send_email("asafaya19@ku.edu.tr","RSS",body+"\n"+traceback.format_exc())
 
 

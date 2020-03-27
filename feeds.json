@@ -28,7 +28,180 @@
 		"url": "https://indianexpress.com/section/india/feed/",
 		"output_path": "/scratch/RSSFeed/indian_express",
 		"format": "indian_express_rss_TIMESTAMP.xml"
+	},
+	"the_epoch_times_chian": {
+		"url": "https://www.theepochtimes.com/c-china/feed",
+		"output_path": "/scratch/RSSFeed/the_epoch_times_china",
+		"format": "theepochtimes_chian_rss_TIMESTAMP.xml"
+	},
+	"the_epoch_times_world": {
+		"url": "https://www.theepochtimes.com/c-world/feed",
+		"output_path": "/scratch/RSSFeed/the_epoch_times_world",
+		"format": "theepochtimes_world_rss_TIMESTAMP.xml"
+	},
+	"clarin_lo_ultimo": {
+		"url": "https://www.clarin.com/rss/lo-ultimo/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_lo_ultimo_rss_TIMESTAMP.xml"
+	},
+	"clarin_politica": {
+		"url": "https://www.clarin.com/rss/politica/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_politica_rss_TIMESTAMP.xml"
+	},
+	"clarin_mundo": {
+		"url": "https://www.clarin.com/rss/mundo/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_mundo_rss_TIMESTAMP.xml"
+	},
+	"clarin_sociedad": {
+		"url": "https://www.clarin.com/rss/sociedad/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_sociedad_rss_TIMESTAMP.xml"
+	},
+	"clarin_policiales": {
+		"url": "https://www.clarin.com/rss/policiales/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_policiales_rss_TIMESTAMP.xml"
+	},
+	"clarin_ciudades": {
+		"url": "https://www.clarin.com/rss/ciudades/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_ciudades_rss_TIMESTAMP.xml"
+	},
+	"clarin_opinion": {
+		"url": "https://www.clarin.com/rss/opinion/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_opinion_rss_TIMESTAMP.xml"
+	},
+	"clarin_cartas_al_pais": {
+		"url": "https://www.clarin.com/rss/cartas_al_pais/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_cartas_al_pais_rss_TIMESTAMP.xml"
+	},
+	"clarin_cultura": {
+		"url": "https://www.clarin.com/rss/cultura/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_cultura_rss_TIMESTAMP.xml"
+	},
+	"clarin_rural": {
+		"url": "https://www.clarin.com/rss/rural/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_rural_rss_TIMESTAMP.xml"
+	},
+	"clarin_economia": {
+		"url": "https://www.clarin.com/rss/economia/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_economia_rss_TIMESTAMP.xml"
+	},
+	"clarin_tecnologia": {
+		"url": "https://www.clarin.com/rss/tecnologia/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_tecnologia_rss_TIMESTAMP.xml"
+	},
+	"clarin_revista-enie": {
+		"url": "https://www.clarin.com/rss/revista-enie/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_revista-enie_rss_TIMESTAMP.xml"
+	},
+	"clarin_viva": {
+		"url": "https://www.clarin.com/rss/viva/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_viva_rss_TIMESTAMP.xml"
+	},
+	"clarin_br": {
+		"url": "https://www.clarin.com/rss/br/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_br_rss_TIMESTAMP.xml"
+	},
+	"clarin_deportes": {
+		"url": "https://www.clarin.com/rss/deportes/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_deportes_rss_TIMESTAMP.xml"
+	},
+	"clarin_si": {
+		"url": "https://www.clarin.com/rss/si/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_si_rss_TIMESTAMP.xml"
+	},
+	"clarin_espectaculos": {
+		"url": "https://www.clarin.com/rss/espectaculos/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_espectaculos_rss_TIMESTAMP.xml"
+	},
+	"clarin_entremujeres": {
+		"url": "https://www.clarin.com/rss/entremujeres/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_entremujeres_rss_TIMESTAMP.xml"
+	},
+	"clarin_autos": {
+		"url": "https://www.clarin.com/rss/autos/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_autos_rss_TIMESTAMP.xml"
+	},
+	"clarin_buena-vida": {
+		"url": "https://www.clarin.com/rss/buena-vida/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_buena-vida_rss_TIMESTAMP.xml"
+	},
+	"clarin_viajes": {
+		"url": "https://www.clarin.com/rss/viajes/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_viajes_rss_TIMESTAMP.xml"
+	},
+	"clarin_arq": {
+		"url": "https://www.clarin.com/rss/arq/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_arq_rss_TIMESTAMP.xml"
+	},
+	"pagina12_secciones_el_pais_notas": {
+		"url": "https://www.pagina12.com.ar/rss/secciones/el-pais/notas",
+		"output_path": "/scratch/RSSFeed/pagina12",
+		"format": "pagina12_rss_TIMESTAMP.xml"
+	},
+	"clarin_deportes": {
+		"url": "https://www.clarin.com/rss/deportes/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_deportes_rss_TIMESTAMP.xml"
+	},
+	"clarin_si": {
+		"url": "https://www.clarin.com/rss/si/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_si_rss_TIMESTAMP.xml"
+	},
+	"clarin_espectaculos": {
+		"url": "https://www.clarin.com/rss/espectaculos/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_espectaculos_rss_TIMESTAMP.xml"
+	},
+	"clarin_entremujeres": {
+		"url": "https://www.clarin.com/rss/entremujeres/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_entremujeres_rss_TIMESTAMP.xml"
+	},
+	"clarin_autos": {
+		"url": "https://www.clarin.com/rss/autos/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_autos_rss_TIMESTAMP.xml"
+	},
+	"clarin_buena-vida": {
+		"url": "https://www.clarin.com/rss/buena-vida/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_buena-vida_rss_TIMESTAMP.xml"
+	},
+	"clarin_viajes": {
+		"url": "https://www.clarin.com/rss/viajes/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_viajes_rss_TIMESTAMP.xml"
+	},
+	"clarin_arq": {
+		"url": "https://www.clarin.com/rss/arq/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_arq_rss_TIMESTAMP.xml"
+	},
+	"clarin_arq": {
+		"url": "https://www.clarin.com/rss/arq/",
+		"output_path": "/scratch/RSSFeed/clarin",
+		"format": "clarin_arq_rss_TIMESTAMP.xml"
 	}
-
-	
 }

@@ -1,8 +1,7 @@
 #Turn Access for less secure apps setting on
-
 import smtplib 
 def send_email(recipient, subject, body): 
-     user,pwd=(<USERNAME>,<PASSWORD>)
+     user,pwd=("aa.universitesi","Aa1231234")
      FROM = user 
      TO = recipient if isinstance(recipient, list) else [recipient] 
      SUBJECT = subject 
