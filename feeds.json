@@ -1,207 +1,412 @@
 {
-	"scmp": {
-		"url": "https://www.scmp.com/rss/2/feed",
-		"output_path": "/scratch/RSSFeed/scmp",
-		"format": "scmp_rss_TIMESTAMP.xml"
-	},
-	"the_hindu": {
-		"url": "https://www.thehindu.com/feeder/default.rss",
-		"output_path": "/scratch/RSSFeed/the_hindu",
-		"format": "the_hindu_rss_TIMESTAMP.xml"
-	},
-	"new_india_express_nation": {
-		"url": "https://www.newindianexpress.com/Nation/rssfeed/?id=170&getXmlFeed=true",
-		"output_path": "/scratch/RSSFeed/new_india_express",
-		"format": "new_india_express_rss_TIMESTAMP.xml"
-	},
-	"new_india_express_world": {
-		"url": "https://www.newindianexpress.com/World/rssfeed/?id=171&getXmlFeed=true",
-		"output_path": "/scratch/RSSFeed/new_india_express",
-		"format": "new_india_express_world_rss_TIMESTAMP.xml"
-	},
-	"times_of_india": {
-		"url": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
-		"output_path": "/scratch/RSSFeed/timesofindia",
-		"format": "timesofindia_rss_TIMESTAMP.xml"
-	},
-	"indian_express": {
-		"url": "https://indianexpress.com/section/india/feed/",
-		"output_path": "/scratch/RSSFeed/indian_express",
-		"format": "indian_express_rss_TIMESTAMP.xml"
-	},
-	"the_epoch_times_chian": {
-		"url": "https://www.theepochtimes.com/c-china/feed",
-		"output_path": "/scratch/RSSFeed/the_epoch_times_china",
-		"format": "theepochtimes_chian_rss_TIMESTAMP.xml"
-	},
-	"the_epoch_times_world": {
-		"url": "https://www.theepochtimes.com/c-world/feed",
-		"output_path": "/scratch/RSSFeed/the_epoch_times_world",
-		"format": "theepochtimes_world_rss_TIMESTAMP.xml"
-	},
-	"clarin_lo_ultimo": {
-		"url": "https://www.clarin.com/rss/lo-ultimo/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_lo_ultimo_rss_TIMESTAMP.xml"
-	},
-	"clarin_politica": {
-		"url": "https://www.clarin.com/rss/politica/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_politica_rss_TIMESTAMP.xml"
-	},
-	"clarin_mundo": {
-		"url": "https://www.clarin.com/rss/mundo/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_mundo_rss_TIMESTAMP.xml"
-	},
-	"clarin_sociedad": {
-		"url": "https://www.clarin.com/rss/sociedad/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_sociedad_rss_TIMESTAMP.xml"
-	},
-	"clarin_policiales": {
-		"url": "https://www.clarin.com/rss/policiales/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_policiales_rss_TIMESTAMP.xml"
-	},
-	"clarin_ciudades": {
-		"url": "https://www.clarin.com/rss/ciudades/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_ciudades_rss_TIMESTAMP.xml"
-	},
-	"clarin_opinion": {
-		"url": "https://www.clarin.com/rss/opinion/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_opinion_rss_TIMESTAMP.xml"
-	},
-	"clarin_cartas_al_pais": {
-		"url": "https://www.clarin.com/rss/cartas_al_pais/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_cartas_al_pais_rss_TIMESTAMP.xml"
-	},
-	"clarin_cultura": {
-		"url": "https://www.clarin.com/rss/cultura/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_cultura_rss_TIMESTAMP.xml"
-	},
-	"clarin_rural": {
-		"url": "https://www.clarin.com/rss/rural/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_rural_rss_TIMESTAMP.xml"
-	},
-	"clarin_economia": {
-		"url": "https://www.clarin.com/rss/economia/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_economia_rss_TIMESTAMP.xml"
-	},
-	"clarin_tecnologia": {
-		"url": "https://www.clarin.com/rss/tecnologia/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_tecnologia_rss_TIMESTAMP.xml"
-	},
-	"clarin_revista-enie": {
-		"url": "https://www.clarin.com/rss/revista-enie/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_revista-enie_rss_TIMESTAMP.xml"
-	},
-	"clarin_viva": {
-		"url": "https://www.clarin.com/rss/viva/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_viva_rss_TIMESTAMP.xml"
-	},
-	"clarin_br": {
-		"url": "https://www.clarin.com/rss/br/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_br_rss_TIMESTAMP.xml"
-	},
-	"clarin_deportes": {
-		"url": "https://www.clarin.com/rss/deportes/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_deportes_rss_TIMESTAMP.xml"
-	},
-	"clarin_si": {
-		"url": "https://www.clarin.com/rss/si/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_si_rss_TIMESTAMP.xml"
-	},
-	"clarin_espectaculos": {
-		"url": "https://www.clarin.com/rss/espectaculos/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_espectaculos_rss_TIMESTAMP.xml"
-	},
-	"clarin_entremujeres": {
-		"url": "https://www.clarin.com/rss/entremujeres/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_entremujeres_rss_TIMESTAMP.xml"
-	},
-	"clarin_autos": {
-		"url": "https://www.clarin.com/rss/autos/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_autos_rss_TIMESTAMP.xml"
-	},
-	"clarin_buena-vida": {
-		"url": "https://www.clarin.com/rss/buena-vida/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_buena-vida_rss_TIMESTAMP.xml"
-	},
-	"clarin_viajes": {
-		"url": "https://www.clarin.com/rss/viajes/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_viajes_rss_TIMESTAMP.xml"
-	},
-	"clarin_arq": {
-		"url": "https://www.clarin.com/rss/arq/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_arq_rss_TIMESTAMP.xml"
-	},
-	"pagina12_secciones_el_pais_notas": {
-		"url": "https://www.pagina12.com.ar/rss/secciones/el-pais/notas",
-		"output_path": "/scratch/RSSFeed/pagina12",
-		"format": "pagina12_rss_TIMESTAMP.xml"
-	},
-	"clarin_deportes": {
-		"url": "https://www.clarin.com/rss/deportes/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_deportes_rss_TIMESTAMP.xml"
-	},
-	"clarin_si": {
-		"url": "https://www.clarin.com/rss/si/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_si_rss_TIMESTAMP.xml"
-	},
-	"clarin_espectaculos": {
-		"url": "https://www.clarin.com/rss/espectaculos/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_espectaculos_rss_TIMESTAMP.xml"
-	},
-	"clarin_entremujeres": {
-		"url": "https://www.clarin.com/rss/entremujeres/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_entremujeres_rss_TIMESTAMP.xml"
-	},
-	"clarin_autos": {
-		"url": "https://www.clarin.com/rss/autos/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_autos_rss_TIMESTAMP.xml"
-	},
-	"clarin_buena-vida": {
-		"url": "https://www.clarin.com/rss/buena-vida/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_buena-vida_rss_TIMESTAMP.xml"
-	},
-	"clarin_viajes": {
-		"url": "https://www.clarin.com/rss/viajes/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_viajes_rss_TIMESTAMP.xml"
-	},
-	"clarin_arq": {
-		"url": "https://www.clarin.com/rss/arq/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_arq_rss_TIMESTAMP.xml"
-	},
-	"clarin_arq": {
-		"url": "https://www.clarin.com/rss/arq/",
-		"output_path": "/scratch/RSSFeed/clarin",
-		"format": "clarin_arq_rss_TIMESTAMP.xml"
-	}
+    "scmp": {
+        "url": "https://www.scmp.com/rss/2/feed",
+        "output_path": "/scratch/RSSFeed/scmp",
+        "format": "scmp_rss_TIMESTAMP.xml"
+    },
+    "the_hindu": {
+        "url": "https://www.thehindu.com/feeder/default.rss",
+        "output_path": "/scratch/RSSFeed/the_hindu",
+        "format": "the_hindu_rss_TIMESTAMP.xml"
+    },
+    "new_india_express_nation": {
+        "url": "https://www.newindianexpress.com/Nation/rssfeed/?id=170&getXmlFeed=true",
+        "output_path": "/scratch/RSSFeed/new_india_express",
+        "format": "new_india_express_rss_TIMESTAMP.xml"
+    },
+    "new_india_express_world": {
+        "url": "https://www.newindianexpress.com/World/rssfeed/?id=171&getXmlFeed=true",
+        "output_path": "/scratch/RSSFeed/new_india_express",
+        "format": "new_india_express_world_rss_TIMESTAMP.xml"
+    },
+    "times_of_india": {
+        "url": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
+        "output_path": "/scratch/RSSFeed/timesofindia",
+        "format": "timesofindia_rss_TIMESTAMP.xml"
+    },
+    "indian_express": {
+        "url": "https://indianexpress.com/section/india/feed/",
+        "output_path": "/scratch/RSSFeed/indian_express",
+        "format": "indian_express_rss_TIMESTAMP.xml"
+    },
+    "the_epoch_times_chian": {
+        "url": "https://www.theepochtimes.com/c-china/feed",
+        "output_path": "/scratch/RSSFeed/the_epoch_times_china",
+        "format": "theepochtimes_chian_rss_TIMESTAMP.xml"
+    },
+    "the_epoch_times_world": {
+        "url": "https://www.theepochtimes.com/c-world/feed",
+        "output_path": "/scratch/RSSFeed/the_epoch_times_world",
+        "format": "theepochtimes_world_rss_TIMESTAMP.xml"
+    },
+    "clarin_lo_ultimo": {
+        "url": "https://www.clarin.com/rss/lo-ultimo/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_lo_ultimo_rss_TIMESTAMP.xml"
+    },
+    "clarin_politica": {
+        "url": "https://www.clarin.com/rss/politica/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_politica_rss_TIMESTAMP.xml"
+    },
+    "clarin_mundo": {
+        "url": "https://www.clarin.com/rss/mundo/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_mundo_rss_TIMESTAMP.xml"
+    },
+    "clarin_sociedad": {
+        "url": "https://www.clarin.com/rss/sociedad/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_sociedad_rss_TIMESTAMP.xml"
+    },
+    "clarin_policiales": {
+        "url": "https://www.clarin.com/rss/policiales/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_policiales_rss_TIMESTAMP.xml"
+    },
+    "clarin_ciudades": {
+        "url": "https://www.clarin.com/rss/ciudades/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_ciudades_rss_TIMESTAMP.xml"
+    },
+    "clarin_opinion": {
+        "url": "https://www.clarin.com/rss/opinion/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_opinion_rss_TIMESTAMP.xml"
+    },
+    "clarin_cartas_al_pais": {
+        "url": "https://www.clarin.com/rss/cartas_al_pais/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_cartas_al_pais_rss_TIMESTAMP.xml"
+    },
+    "clarin_cultura": {
+        "url": "https://www.clarin.com/rss/cultura/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_cultura_rss_TIMESTAMP.xml"
+    },
+    "clarin_rural": {
+        "url": "https://www.clarin.com/rss/rural/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_rural_rss_TIMESTAMP.xml"
+    },
+    "clarin_economia": {
+        "url": "https://www.clarin.com/rss/economia/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_economia_rss_TIMESTAMP.xml"
+    },
+    "clarin_tecnologia": {
+        "url": "https://www.clarin.com/rss/tecnologia/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_tecnologia_rss_TIMESTAMP.xml"
+    },
+    "clarin_revista-enie": {
+        "url": "https://www.clarin.com/rss/revista-enie/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_revista-enie_rss_TIMESTAMP.xml"
+    },
+    "clarin_viva": {
+        "url": "https://www.clarin.com/rss/viva/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_viva_rss_TIMESTAMP.xml"
+    },
+    "clarin_br": {
+        "url": "https://www.clarin.com/rss/br/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_br_rss_TIMESTAMP.xml"
+    },
+    "clarin_deportes": {
+        "url": "https://www.clarin.com/rss/deportes/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_deportes_rss_TIMESTAMP.xml"
+    },
+    "clarin_si": {
+        "url": "https://www.clarin.com/rss/si/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_si_rss_TIMESTAMP.xml"
+    },
+    "clarin_espectaculos": {
+        "url": "https://www.clarin.com/rss/espectaculos/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_espectaculos_rss_TIMESTAMP.xml"
+    },
+    "clarin_entremujeres": {
+        "url": "https://www.clarin.com/rss/entremujeres/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_entremujeres_rss_TIMESTAMP.xml"
+    },
+    "clarin_autos": {
+        "url": "https://www.clarin.com/rss/autos/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_autos_rss_TIMESTAMP.xml"
+    },
+    "clarin_buena-vida": {
+        "url": "https://www.clarin.com/rss/buena-vida/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_buena-vida_rss_TIMESTAMP.xml"
+    },
+    "clarin_viajes": {
+        "url": "https://www.clarin.com/rss/viajes/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_viajes_rss_TIMESTAMP.xml"
+    },
+    "clarin_arq": {
+        "url": "https://www.clarin.com/rss/arq/",
+        "output_path": "/scratch/RSSFeed/clarin",
+        "format": "clarin_arq_rss_TIMESTAMP.xml"
+    },
+    "pagina12_portada": {
+        "url": "https://www.pagina12.com.ar/rss/portada",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_portada_rss_TIMESTAMP.xml"
+    },
+    "pagina12_edicion_impresa": {
+        "url": "https://www.pagina12.com.ar/rss/edicion-impresa",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_edicion_impresa_rss_TIMESTAMP.xml"
+    },
+    "pagina12_espectaculos": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/cultura-y-espectaculos/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_espectaculos_rss_TIMESTAMP.xml"
+    },
+    "pagina12_rosario12_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/rosario12/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_rosario12_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_el_pais_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/el-pais/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_el_pais_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_economia_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/economia/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_economia_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_sociedad_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/sociedad/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_sociedad_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_el_mundo_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/el-mundo/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_el_mundo_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_deportes_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/deportes/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_deportes_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_cultura_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/cultura/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_cultura_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_universidad_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/universidad/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_universidad_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_ciencia_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/ciencia/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_ciencia_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_psicologia_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/psicologia/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_psicologia_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_ajedrez_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/ajedrez/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_ajedrez_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_la_ventana_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/la-ventana/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_la_ventana_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_dialogos_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/dialogos/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_dialogos_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_hoy_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/hoy/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_hoy_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_plastica_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/plastica/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_plastica_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_secciones_cartas_de_lectores_notas": {
+        "url": "https://www.pagina12.com.ar/rss/secciones/cartas-de-lectores/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_secciones_cartas_de_lectores_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_cash_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/cash/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_cash_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_las12_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/las12/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_las12_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_libero_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/libero/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_libero_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_m2_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/m2/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_m2_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_no_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/no/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_no_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_radar_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/radar/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_radar_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_radar_libros_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/radar-libros/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_radar_libros_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_satira12_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/satira12/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_satira12_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_soy_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/soy/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_soy_notas_rss_TIMESTAMP.xml"
+    },
+    "pagina12_suplementos_turismo_notas": {
+        "url": "https://www.pagina12.com.ar/rss/suplementos/turismo/notas",
+        "output_path": "/scratch/RSSFeed/pagina12",
+        "format": "pagina12_suplementos_turismo_notas_rss_TIMESTAMP.xml"
+    },
+    "lanacion_ultimas_noticias": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/origen=2",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_ultimas_noticias_rss_TIMESTAMP.xml"
+    },
+    "lanacion_títulos_ed_impresa": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/origen=1",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_títulos_ed_impresa_rss_TIMESTAMP.xml"
+    },
+    "lanacion_política": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=30",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_política_rss_TIMESTAMP.xml"
+    },
+    "lanacion_economía": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=272",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_economía_rss_TIMESTAMP.xml"
+    },
+    "lanacion_deportes": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=131",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_deportes_rss_TIMESTAMP.xml"
+    },
+    "lanacion_sociedad": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=7773",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_sociedad_rss_TIMESTAMP.xml"
+    },
+    "lanacion_opinión": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=28",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_opinión_rss_TIMESTAMP.xml"
+    },
+    "lanacion_espectáculos": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=120",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_espectáculos_rss_TIMESTAMP.xml"
+    },
+    "lanacion_el_mundo": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=7",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_el_mundo_rss_TIMESTAMP.xml"
+    },
+    "lanacion_revista_la_nacion": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=494",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_revista_la_nacion_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_enfoques": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=421",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_enfoques_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_comercio_exterior": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=347",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_comercio_exterior_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_tecnología": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=432",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_tecnología_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_turismo": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=504",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_turismo_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_al_volante": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=371",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_al_volante_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_el_campo": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=337",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_el_campo_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_moda_y_belleza": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=1312",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_moda_y_belleza_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_inmuebles_comerciales": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=1363",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_inmuebles_comerciales_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_countries": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=1348",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_countries_rss_TIMESTAMP.xml"
+    },
+    "lanacion_suplemento_comunidad": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=1344",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_suplemento_comunidad_rss_TIMESTAMP.xml"
+    },
+    "lanacion_adncultura": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=6734",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_adncultura_rss_TIMESTAMP.xml"
+    },
+    "lanacion_the_wall_street_journal_americas": {
+        "url": "http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=6373",
+        "output_path": "/scratch/RSSFeed/lanacion",
+        "format": "lanacion_the_wall_street_journal_americas_rss_TIMESTAMP.xml"
+    }
 }
