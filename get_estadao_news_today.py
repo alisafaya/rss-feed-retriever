@@ -101,11 +101,8 @@ try:
     try:
         with open("estadao_today_news.json", "r+") as outfile:
             data = json.loads(outfile.read())
-            print(data)
             for news in jsonOutput:
-                print(news)
                 data['articles'].append(news)
-            print(data)
             with open("estadao_today_news.json", "w") as outfile:
                 outfile.write(str(data).replace("'", '"'))
     except:
@@ -113,5 +110,4 @@ try:
             outfile.write('{"articles": []}')
 
 except Exception as e:
-    print(e)
     pass
